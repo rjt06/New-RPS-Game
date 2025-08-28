@@ -106,7 +106,7 @@ function getComputerMove() {
     computerSelectedImg.src = "paper.png";
     computerSelectedItem.innerHTML = "Paper";
   } else if (random > 0.66 && random <= 1) {
-    computerSelectedImg.src = "Scissors.png";
+    computerSelectedImg.src = "scissors.png";
     computerSelectedItem.innerHTML = "Scissors";
     computerMove = "Scissors";
   }
@@ -117,4 +117,5 @@ function printScore() {
   scoreCountBox.innerHTML = `Your Wins: ${scoreCount.Win}
   Loses: ${scoreCount.Lose}
   Ties: ${scoreCount.Tie}`
+
 }
