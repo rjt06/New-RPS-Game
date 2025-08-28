@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RPS Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <div class="logo">
+        <h2 class="rps-game">RPS Game</h2>
+        <img class="logo-img" src="scissors.png" alt="">
+      </div>
+    </div>
+
+  </header>
+  <main class="container">
+    <section>
+      <div class="calculation-grid">
+        <div class="temp-grid-1" style="grid-row: span 3;">
+          <div style="height: 15rem;">
+            <!-- img should be selected by you -->
+            <img class="user-selected-img" src="">
+          </div>
+          <h2 class="user-selected-item" style="margin-top: 0;"></h2>
+          <h2>Your move</h2>
+        </div>
+        <div class="temp-grid-2">
+          <h2 class="result-box">Let's play</h2>
+        </div>
+        <div class="temp-grid-3" style="grid-row: span 3;">
+          <div style="height: 15rem;">
+            <!-- img should be selected by computer -->
+            <img class="computer-selected-img" src="">
+          </div>
+          <h2 class="computer-selected-item" style="margin-top: 0;"></h2>
+          <h2>Computer Move</h2>
+        </div>
+        <div class="score-count-box temp-grid-4" > Your Wins: 0 Loses: 0 Ties: 0
+        </div>
+        <button class="reset-btn temp-grid-5">Reset Button</button>
+      </div>
+    </section>
+    <!------------------------------------------------>
+    <section class="fixed-section container">
+      <div class="rps-img">
+        <div class="rock-item rps-item">
+          <img class="rock-img" src="rock.png" alt="">
+        </div>
+        <div class="paper-item rps-item">
+          <img class="paper-img" src="paper.png" alt="">
+        </div>
+        <div class="scissors-item rps-item">
+          <img class="scissors-img" src="scissors.png" alt="">
+        </div>
+        <h2 style="margin: 0; font-size: 1.6rem;">Rock</h2>
+        <h2 style="margin: 0; font-size: 1.6rem;">Paper</h2>
+        <h2 style="margin: 0; font-size: 1.6rem;">Scissors</h2>
+      </div>
+      <div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <h2>AMAN SINGH</h2>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
